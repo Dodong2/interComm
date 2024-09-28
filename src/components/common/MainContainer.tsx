@@ -1,14 +1,13 @@
 
-
 interface Container {
     children: React.ReactNode
 }
 
-const MainContainer: React.FC<Container> = ({ children }) => {
+const MainContainer: React.FC<Container> = ({children}) => {
   return (
     <>
-      <div className='main-container'>
-        {children}
+      <div className="main-container">
+        { children }
       </div>
     </>
   )
