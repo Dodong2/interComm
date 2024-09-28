@@ -1,12 +1,13 @@
 /********** Components **********/
 import MainContainer from "../components/common/MainContainer";
+import Register from "../components/Register";
 
 const Home = () => {
 
   return (
     <>
       <MainContainer>
-        <div>hi</div>
+        <div><Register/></div>
       </MainContainer>
     </>
   );
