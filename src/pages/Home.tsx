@@ -1,13 +1,16 @@
+import { Link } from "react-router-dom";
 /********** Components **********/
 import MainContainer from "../components/common/MainContainer";
-import Register from "../components/Register";
+
 
 const Home = () => {
 
   return (
     <>
       <MainContainer>
-        <div><Register/></div>
+        <div>hi</div>
+        <Link to='/register'><button>register</button></Link>
+        <Link to='/login'><button>Login</button></Link>
       </MainContainer>
     </>
   );
